@@ -28,9 +28,10 @@ echo "\n"
 echo "Installing Homebrew package manager!"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# UI Apps
 echo "\n"
-echo "Installing iterm2, Chrome, Firefox, VSCode & Docker."
+echo "Installing apps!"
+
+# UI Apps
 brew install --cask iterm2
 brew install --cask google-chrome
 brew install --cask firefox
@@ -38,8 +39,6 @@ brew install --cask visual-studio-code
 brew install --cask docker
 
 # Apps
-echo "\n"
-echo "Installing GitHub CLI, Git, NVM and Zsh."
 brew install \
   gh \
   git \
