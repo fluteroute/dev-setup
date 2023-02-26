@@ -115,3 +115,16 @@ echo "Setting GitHub authentication. This will require user interaction."
 read -p "Press enter to continue!"
 
 gh auth login
+
+# Setting up git config
+echo "\n"
+echo "Setting up your git config so your commits show the correct user in GitHub. This will require user interaction."
+echo "\n"
+echo "Update name to your GitHub username and email to your associated email address."
+echo "\n"
+echo "Press the i key to insert your changes. Then press the esc key to save those changes. Once your changes are saved enter ':wq' to write and quit."
+read -p "Press enter to continue"
+git config --global --edit
+
+echo "\n"
+echo "Installation and set up are complete! Happy coding!"
