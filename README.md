@@ -7,5 +7,5 @@ I created this to have a quick and easy way for me to set my development environ
 Please run the following command:
 
 ```bash
-curl https://raw.githubusercontent.com/fluteroute/dev-setup/main/setup.sh | /bin/bash
+curl https://raw.githubusercontent.com/fluteroute/dev-setup/main/setup-macOS.sh | /bin/bash
 ```
