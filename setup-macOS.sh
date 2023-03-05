@@ -37,6 +37,7 @@ brew install --cask google-chrome
 brew install --cask firefox
 brew install --cask visual-studio-code
 brew install --cask docker
+brew install --cask inkscape
 
 # Apps
 brew install \
