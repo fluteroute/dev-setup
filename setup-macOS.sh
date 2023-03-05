@@ -86,8 +86,7 @@ nvm install-latest-npm
 # Yarn
 echo "\n"
 echo "Installing yarn package manager."
-corepack enable
-corepack prepare yarn@stable --activate
+npm install -g yarn
 
 # VSCode extensions
 echo "\n"
